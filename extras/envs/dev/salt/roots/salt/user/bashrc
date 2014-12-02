@@ -1,0 +1,10 @@
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+source $HOME/virtualenvs/python2.6/bin/activate

@@ -1,0 +1,8 @@
+Varnish Custom Counters (VCC) developers are:
+
+    - Carlos Abalde <carlos.abalde@gmail.com>
+
+VCC is sponsored by Allenta Consulting (http://www.allenta.com), the
+Varnish Software integration partner for Spain and Portugal.
+
+Comments, improvements and contributions are welcome! :)
