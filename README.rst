@@ -9,7 +9,7 @@ VCC is sponsored by `Allenta Consulting <http://www.allenta.com>`_, the Varnish 
 Example
 =======
 
-The following VCL::
+Using the following VCL::
 
     sub vcl_deliver {
         std.log("vcc:Sample counter #1 (COUNT):count:");
@@ -21,7 +21,7 @@ The following VCL::
         std.log("vcc:Sample counter #7 (LAST):last:" + req.http.X-Whatever);
     }
 
-After processing some requests you will get something like:
+After processing some requests, you will get something like:
 
 .. image:: https://github.com/carlosabalde/vcc/raw/master/extras/screenshot.png
 
